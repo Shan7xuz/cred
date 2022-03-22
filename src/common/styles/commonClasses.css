@@ -3,27 +3,36 @@
   margin: auto;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
-.absolute-center{
+.absolute-center {
   justify-content: center;
   align-items: center;
 }
 
-.flex-col{
+.flex-col {
   flex-direction: column;
 }
 
-@media all and (max-width:1280px) {
-  .max-width{
+@media all and (max-width: 1280px) {
+  .max-width {
     max-width: 80%;
   }
 }
 
-@media all and (max-width:768px) {
-  .max-width{
+@media all and (max-width: 768px) {
+  .max-width {
     max-width: 90%;
+  }
+  .non-mobile {
+    display: none !important;
+  }
+}
+
+@media all and (min-width: 769px) {
+  .only-mobile {
+    display: none !important;
   }
 }
