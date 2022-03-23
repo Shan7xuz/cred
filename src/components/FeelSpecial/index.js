@@ -4,7 +4,7 @@ import './feelSpecial.css';
 
 const FeelSpecial = () => {
   return (
-    <div className={`feel-specila photo-section`}>
+    <div className='feel-specila photo-section'>
       <div className='max-width'>
         <div className='photo-section-child'>
           <div className='photo-section-top'>
@@ -22,8 +22,8 @@ const FeelSpecial = () => {
               special access to curated products and experiences. on CRED, good
               begets good.
             </div>
-            <div className="">
-              <Button buttonText='explore rewards'/>
+            <div>
+              <Button buttonText = 'Explore rewards' />
             </div>
           </div>
         </div>
