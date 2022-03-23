@@ -5,6 +5,7 @@ import ProductShowcase from '../components/ProductShowcase';
 import FeelSpecial from '../components/FeelSpecial';
 import CredExperience from '../components/CredExperience';
 import CredSecurity from '../components/CredSecurity';
+import BrandsLove from '../components/BrandsLove';
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <HeroSection />
       <ProductShowcase />
       <FeelSpecial />
+      <BrandsLove />
       <CredExperience />
       <CredSecurity />
     </>
