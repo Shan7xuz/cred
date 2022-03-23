@@ -4,13 +4,13 @@ import './feelSpecial.css';
 
 const FeelSpecial = () => {
   return (
-    <div className='feel-specila photo-section'>
+    <div className='feel-special photo-section'>
       <div className='max-width'>
         <div className='photo-section-child'>
           <div className='photo-section-top'>
             <div className='photo-section-heading'>
               feel special more often.
-            </div>
+           </div>
             <div className='photo-section-subheading'>
               exclusive rewards for paying your bills
             </div>
@@ -29,7 +29,7 @@ const FeelSpecial = () => {
         </div>
       </div>
     </div>
-  );
+  ); 
 };
 
 export default FeelSpecial;
