@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../common/Button';
 import './feelSpecial.css';
+import '../common/Button/button.css';
 
 const FeelSpecial = () => {
   return (
@@ -10,7 +11,7 @@ const FeelSpecial = () => {
           <div className='photo-section-top'>
             <div className='photo-section-heading'>
               feel special more often.
-           </div>
+            </div>
             <div className='photo-section-subheading'>
               exclusive rewards for paying your bills
             </div>
@@ -23,13 +24,13 @@ const FeelSpecial = () => {
               begets good.
             </div>
             <div>
-              <Button buttonText = 'Explore rewards' />
+              <Button buttonText={'Explore rewards'} />
             </div>
           </div>
         </div>
       </div>
     </div>
-  ); 
+  );
 };
 
 export default FeelSpecial;

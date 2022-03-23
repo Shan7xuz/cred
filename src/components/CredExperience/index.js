@@ -1,6 +1,7 @@
 import React from 'react';
 import './credExperience.css';
 import Button from '../common/Button';
+import '../common/Button/button.css';
 
 const CredExperience = () => {
   return (
@@ -23,7 +24,7 @@ const CredExperience = () => {
               goes, always.
             </div>
             <div>
-              <Button buttonText='Explore rewards' />
+              <Button buttonText='Experience the upgrade' />
             </div>
           </div>
         </div>

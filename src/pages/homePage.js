@@ -4,8 +4,9 @@ import Header from '../components/common/Header';
 import ProductShowcase from '../components/ProductShowcase';
 import FeelSpecial from '../components/FeelSpecial';
 import CredExperience from '../components/CredExperience';
+import CredSecurity from '../components/CredSecurity';
 
-const homePage = () => {
+const HomePage = () => {
   return (
     <>
       <Header />
@@ -13,8 +14,9 @@ const homePage = () => {
       <ProductShowcase />
       <FeelSpecial />
       <CredExperience />
+      <CredSecurity />
     </>
   );
 };
 
-export default homePage;
+export default HomePage;
