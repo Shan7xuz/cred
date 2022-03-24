@@ -49,7 +49,8 @@ const MobileScroll = () => {
             <img
               src={scrollData[currentImg].mobile_img}
               alt=''
-              className='mobile-screen-img'
+              className='mobile-screen-img slide-in-right'
+              key={scrollData[currentImg].mobile_img}
             />
           </div>
         </div>
