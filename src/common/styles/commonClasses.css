@@ -51,6 +51,14 @@
   margin-bottom: 40px;
 }
 
+.footer {
+  font-size: 40px;
+  font-weight: 600;
+  padding: 0 0 20px;
+  background-color: var(--bg-gray);
+  text-align: center;
+}
+
 @media all and (max-width: 1280px) {
   .max-width {
     max-width: 80%;
@@ -61,6 +69,9 @@
 
   .photo-section-child {
     padding: 100px 0px;
+  }
+  .footer {
+    font-size: 32px;
   }
 }
 
@@ -89,6 +100,9 @@
   }
   .photo-section-child {
     padding: 195px 0 90px;
+  }
+  .footer {
+    font-size: 20px;
   }
 }
 
